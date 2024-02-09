@@ -18,7 +18,7 @@ export default function App() {
           setIsModalVisible(false);
         }}
         animationType="slide"
-        presentationStyle="pageSheet" 
+        presentationStyle="pageSheet"
       >
         <View style={{ flex: 1, backgroundColor: "lightblue", padding: 60 }}>
           <Text>Modal content</Text>
