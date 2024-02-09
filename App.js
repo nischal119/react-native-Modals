@@ -12,6 +12,7 @@ export default function App() {
           setIsModalVisible(true);
         }}
       />
+
       <Modal
         visible={isModalVisible}
         onRequestClose={() => {
