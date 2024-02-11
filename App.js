@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Text, View, Modal, Button } from "react-native";
-
 export default function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   return (
@@ -12,7 +11,6 @@ export default function App() {
           setIsModalVisible(true);
         }}
       />
-
       <Modal
         visible={isModalVisible}
         onRequestClose={() => {
