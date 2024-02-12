@@ -74,7 +74,6 @@ export default function App() {
       /> */}
 
       {/* {//! Alert} */}
-
       <Button
         title="Alert"
         onPress={() => {
