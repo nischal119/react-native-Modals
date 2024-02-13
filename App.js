@@ -80,6 +80,7 @@ export default function App() {
           Alert.alert("Invalid data!", "DOB Incorrect");
         }}
       />
+
       <Button
         title="Alert 2"
         onPress={() => {
